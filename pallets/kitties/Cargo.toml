@@ -1,5 +1,5 @@
 [package]
-name = 'pallet-template'
+name = 'pallet-kitties'
 version = '4.0.0-dev'
 description = 'FRAME pallet template for defining custom runtime logic.'
 authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
@@ -48,7 +48,7 @@ git = 'https://github.com/paritytech/substrate.git'
 tag = 'monthly-2021-12'
 version = '4.0.0-dev'
 
-[dev-dependencies.sp-io]
+[dependencies.sp-io]
 default-features = false
 git = 'https://github.com/paritytech/substrate.git'
 tag = 'monthly-2021-12'
